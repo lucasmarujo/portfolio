@@ -5,9 +5,9 @@ import masclubImage from './masclub.png';
 export const Bio = {
   name: "Lucas Marujo",
   roles: [
-    "Programador",
-    "Full Stack Developer",
-    "Mobile Developer"
+    "FrontEnd Developer",
+    "UI/UX Web Designer",
+    "SAAS Empreender"
   ],
   description:
     "Sou uma pessoa motivada e versátil, sempre disposta a aceitar novos desafios. Com uma paixão pela aprendizagem, dedico-me a apresentar resultados de elevada qualidade. Com uma atitude positiva e uma mentalidade de crescimento, disposto a contribuir significativamente e alcançar grandes feitos.",
@@ -39,6 +39,10 @@ export const skills = [
           "https://github.com/tandpfun/skill-icons/raw/main/icons/JavaScript.svg",
       },
       {
+        name: "TypeScript",
+        image: "https://github.com/tandpfun/skill-icons/raw/main/icons/TypeScript.svg",
+      },
+      {
         name: "React Js",
         image:
           "https://github.com/tandpfun/skill-icons/raw/main/icons/React-Dark.svg",
@@ -64,11 +68,6 @@ export const skills = [
           "https://github.com/tandpfun/skill-icons/raw/main/icons/Python-Dark.svg",
       },
       {
-        name: "Django",
-        image:
-          "https://github.com/tandpfun/skill-icons/raw/main/icons/Django.svg",
-      },
-      {
         name: "MySQL",
         image:
           "https://github.com/tandpfun/skill-icons/raw/main/icons/MySQL-Dark.svg",
@@ -82,10 +81,7 @@ export const skills = [
         name: "Firebase",
         image: "https://github.com/tandpfun/skill-icons/raw/main/icons/Firebase-Dark.svg",
       },
-      {
-        name: "TypeScript",
-        image: "https://github.com/tandpfun/skill-icons/raw/main/icons/TypeScript.svg",
-      },
+      
     ],
   },
   
@@ -126,11 +122,6 @@ export const skills = [
         name: "Azure",
         image:
           "https://github.com/tandpfun/skill-icons/raw/main/icons/Azure-Dark.svg",
-      },
-      {
-        name: "GCP",
-        image:
-          "https://github.com/tandpfun/skill-icons/raw/main/icons/GCP-Dark.svg",
       },
       {
         name: "Linux",
@@ -194,7 +185,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://scontent.fcgh64-1.fna.fbcdn.net/v/t39.30808-6/464684351_1071939684850622_1101791995020646538_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=hqS4i-gKvmoQ7kNvgEPz3CY&_nc_ht=scontent.fcgh64-1.fna&_nc_gid=Aa2Kk80ihqRMe8RKi1HAWSo&oh=00_AYDDP38GYXXRfQ-F4yi-ZUk-UqwpHSH0MFB8nzH5vLPupA&oe=67228EA5",
+    img: "https://scontent.fcgh64-1.fna.fbcdn.net/v/t39.30808-6/464684351_1071939684850622_1101791995020646538_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG6SyUx8l5ylfAWKOBDPpOECxKtx2DwRV8LEq3HYPBFX9zyreNwjym1qoIkV2wkeg0DCNRCXB9mZKnjdnH45HNB&_nc_ohc=CRonN7vkORYQ7kNvgHG-y4I&_nc_zt=23&_nc_ht=scontent.fcgh64-1.fna&_nc_gid=AstCUO2flHs3dQcxVkzkk5u&oh=00_AYCComGu11MSknHQoSgva-FMJ-DsSncfGhBXg9U9IzJG9A&oe=672FBDA5",
     school: "Colégio Cosmos",
     date: "Jan 2009 - Dez 2018",
     grade: "87.3%",
@@ -204,6 +195,37 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 0,
+    title: "Dashboard - DASHFY",
+    date: "Nov 2024",
+    description:
+      "Esse é um projeto real desenvolvido para usuários e empresas, fornecendo serviço de analise de dados e gerenciamento de negócios.",
+    image: portfolioImage,
+    tags: [
+      "Next Js",
+      "Tailwind",
+      "Clerk",
+      "C#",
+      "MySQL",
+    ],
+    category: "backend",
+    github: "https://github.com/lucasmarujo/portfolio",
+    member: [
+      {
+        name: "Lucas Marujo Amadeu",
+        img: "https://avatars.githubusercontent.com/u/97917029?v=4",
+        linkedin: "https://www.linkedin.com/in/lucas-marujo-amadeu-5322a7219/",
+        github: "https://github.com/lucasmarujo",
+      },
+      {
+        name: "Lucas Ferreira Balduino",
+        img: "https://avatars.githubusercontent.com/u/143102979?v=4",
+        linkedin: "https://www.linkedin.com/in/lucas-ferreira-balduino-a7a960227/",
+        github: "https://github.com/Lucaskjkk",
+      },
+    ],
+  },
   {
     id: 1,
     title: "Portfolio",
