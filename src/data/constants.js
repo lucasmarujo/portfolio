@@ -177,6 +177,15 @@ export const education = [
   },
   {
     id: 1,
+    img: "https://media.licdn.com/dms/image/v2/D4E0BAQFloaXIKYL6kw/company-logo_200_200/company-logo_200_200/0/1719941469307/ilac_logo?e=1741219200&v=beta&t=h4xIaOJ-bisqmCR3Q8UHeyDFcJp3labvDxObQSGIXfk",
+    school: "ILAC",
+    date: "Nov 2024 - Dec 2024",
+    grade: "74%",
+    desc: "Cambridge English Level High-Advanced - CAE C1+",
+    degree: "International English Intensive",
+  },
+  {
+    id: 2,
     img: "https://media.licdn.com/dms/image/v2/C4D0BAQHQaa7Z4TUWcQ/company-logo_100_100/company-logo_100_100/0/1630565324614/faculdadeflamingo_logo?e=1738195200&v=beta&t=sgOXzI43VVo_qImnEojz6smUrA2EKU9ss8sriCWuxhE",
     school: "Faculdade Flamingo",
     date: "jan 2019 - Dez 2021",
@@ -185,8 +194,8 @@ export const education = [
     degree: "Ensino médio + Tecnólogo",
   },
   {
-    id: 2,
-    img: "https://scontent.fcgh64-1.fna.fbcdn.net/v/t39.30808-6/464684351_1071939684850622_1101791995020646538_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG6SyUx8l5ylfAWKOBDPpOECxKtx2DwRV8LEq3HYPBFX9zyreNwjym1qoIkV2wkeg0DCNRCXB9mZKnjdnH45HNB&_nc_ohc=CRonN7vkORYQ7kNvgHG-y4I&_nc_zt=23&_nc_ht=scontent.fcgh64-1.fna&_nc_gid=AstCUO2flHs3dQcxVkzkk5u&oh=00_AYCComGu11MSknHQoSgva-FMJ-DsSncfGhBXg9U9IzJG9A&oe=672FBDA5",
+    id: 3,
+    img: "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/464684351_1071939684850622_1101791995020646538_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=c3ZujaM1XG0Q7kNvgFo4kHH&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=Arbi1qXfGyx7Q0aAsJUQKv5&oh=00_AYBU1hT77gBe1lTMd3r-TnW7182R7Q3hvASyl0Ey9Zwa6g&oe=675669A5",
     school: "Colégio Cosmos",
     date: "Jan 2009 - Dez 2018",
     grade: "87.3%",
