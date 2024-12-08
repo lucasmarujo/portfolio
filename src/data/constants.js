@@ -1,6 +1,7 @@
 import portfolioImage from './portfolio.png';
 import handImage from './handtracker.png';
 import masclubImage from './masclub.png';
+import adapitfy from './adapitfy.png'
 
 export const Bio = {
   name: "Lucas Marujo",
@@ -13,7 +14,7 @@ export const Bio = {
     "Sou uma pessoa motivada e versátil, sempre disposta a aceitar novos desafios. Com uma paixão pela aprendizagem, dedico-me a apresentar resultados de elevada qualidade. Com uma atitude positiva e uma mentalidade de crescimento, disposto a contribuir significativamente e alcançar grandes feitos.",
   github: "https://github.com/lucasmarujo",
   resume:
-    "https://drive.google.com/file/d/1QH-MBrgXimfvk_Vv3Bduwc0hsSXdeVXs/view?usp=sharing",
+    "https://drive.google.com/file/d/1j34mptmQp197MPgWbfauxu_JUcJsDgyO/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/lucas-marujo-amadeu-5322a7219/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/lucas.marujo/",
@@ -197,32 +198,27 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Dashboard - DASHFY",
-    date: "Nov 2024",
+    title: "Adapitfy ",
+    date: "Early 2025",
     description:
-      "Esse é um projeto real desenvolvido para usuários e empresas, fornecendo serviço de analise de dados e gerenciamento de negócios.",
-    image: portfolioImage,
+      "Um SAAS desenvolvido individualmente por mim, com servioços disponiveis de IA, assistencia de vendas, suporte por chat 24h. Inicialmente é um projeto para startups ou empresas de médio porte, podendo também ser usado por pessoas fisicas. ",
+    image: adapitfy,
     tags: [
       "Next Js",
       "Tailwind",
       "Clerk",
-      "C#",
       "MySQL",
+      "Python",
+      "Typescript"
     ],
     category: "backend",
-    github: "https://github.com/lucasmarujo/portfolio",
+    github: "https://github.com/lucasmarujo",
     member: [
       {
         name: "Lucas Marujo Amadeu",
         img: "https://avatars.githubusercontent.com/u/97917029?v=4",
         linkedin: "https://www.linkedin.com/in/lucas-marujo-amadeu-5322a7219/",
         github: "https://github.com/lucasmarujo",
-      },
-      {
-        name: "Lucas Ferreira Balduino",
-        img: "https://avatars.githubusercontent.com/u/143102979?v=4",
-        linkedin: "https://www.linkedin.com/in/lucas-ferreira-balduino-a7a960227/",
-        github: "https://github.com/Lucaskjkk",
       },
     ],
   },
