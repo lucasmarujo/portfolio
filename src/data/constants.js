@@ -247,6 +247,8 @@ export const projects = [
     ],
     category: "frontend",
     github: "https://github.com/lucasmarujo/portfolio",
+    webapp: "https://lucasmarujo.github.io/portfolio/",
+    
   },
   {
     id: 2,
@@ -301,6 +303,7 @@ export const projects = [
     ],
     category: "frontend",
     github: "https://github.com/lucasmarujo/todolist",
+    webapp: "https://lucasmarujo.github.io/todolist/",
   },
 ];
 
