@@ -2,6 +2,7 @@ import portfolioImage from './portfolio.png';
 import handImage from './handtracker.png';
 import masclubImage from './masclub.png';
 import adapitfy from './adapitfy.png'
+import todoimg from './todolist.png'
 
 export const Bio = {
   name: "Lucas Marujo",
@@ -284,6 +285,22 @@ export const projects = [
         github: "https://github.com/Lucaskjkk",
       },
     ],
+  },
+  {
+    id: 3,
+    title: "To-do-app",
+    date: "Dec 2024",
+    description:
+      "Este projeto é um aplicativo de gerenciamento de tarefas (ToDoList) desenvolvido em Node.js, oferecendo uma API RESTful completa com funcionalidades CRUD (Criar, Ler, Atualizar e Excluir). Ele permite que os usuários registrem suas tarefas, adicionem descrições detalhadas, definam prazos e marquem tarefas como concluídas.",
+    image: todoimg,
+    tags: [
+      "React Js",
+      "Node Js",
+      "Js",
+      "TypeScript",
+    ],
+    category: "frontend",
+    github: "https://github.com/lucasmarujo/todolist",
   },
 ];
 
