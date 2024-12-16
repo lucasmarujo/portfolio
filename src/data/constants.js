@@ -3,6 +3,7 @@ import handImage from './handtracker.png';
 import masclubImage from './masclub.png';
 import adapitfy from './adapitfy.png'
 import todoimg from './todolist.png'
+import AdapitfyC from './AdapitfyC.png'
 
 export const Bio = {
   name: "Lucas Marujo",
@@ -304,6 +305,24 @@ export const projects = [
     category: "frontend",
     github: "https://github.com/lucasmarujo/todolist",
     webapp: "https://lucasmarujo.github.io/todolist/",
+  },
+  {
+    id: 4,
+    title: "Adapitfy Courses",
+    date: "Dec 2024",
+    description:
+      "Este projeto é uma plataforma de cursos online, onde os usuários podem se inscrever em cursos específicos e acessar aulas em vídeo, além de realizar testes e avaliações para acompanhar o progresso do aprendizado.",
+    image: AdapitfyC,
+    tags: [
+      "Typescript",
+      "Next Js",
+      "Node Js",
+      "Vercel ",
+      "Stripe",
+    ],
+    category: "frontend",
+    github: "https://github.com/lucasmarujo/adapitfy-courses",
+    webapp: "https://adapitfy-courses.vercel.app/",
   },
 ];
 
